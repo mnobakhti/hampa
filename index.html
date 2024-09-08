@@ -35,25 +35,25 @@
     <div class="sticky-top">
 
         <!-- Topbar Start -->
-        <div class="container-fluid py-2 border-bottom d-none d-lg-block bg-white shadow-sm" dir="ltr">
+        <div class="container-fluid py-1 border-bottom d-none d-lg-block bg-white shadow-sm fontchange" dir="ltr">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-1">
                         <div class="d-inline-flex align-items-center">
-                            <a class="text-decoration-none text-dark pe-3" href=""><i class="bi bi-telephone-fill me-2"></i>09129421027</a>
-                       </div>
+                            <a class="text-decoration-none text-dark pe-3" style="font-size: large; font-weight: bold" href=""><i class="bi bi-telephone-fill me-2" style="font-size: small" ></i>09129421027</a>
+                        </div>
                     </div>
-                    <div class="col-md-6 text-center text-lg-end">
-                        <div class="d-inline-flex align-items-center">
+                    <div class="col-md-6 text-center text-lg-end mt-1 mt-lg-0" style="font-size: small" >
+                        <div class="d-inline-flex align-items-center py-1">
                             <a class="text-body px-2" href="">
-                                <i class="bi bi-envelope"></i>
+                                <i class="bi bi-envelope" ></i>
                             </a>
                             <a class="text-body px-2" href="">
                                 <i class="fab fa-telegram"></i>
                             </a>
-                            <a class="text-body px-2  mb-1" style="opacity: 40%" href="">
+                            <!-- <a class="text-body px-2  mb-1" style="opacity: 40%" href="">
                                 <img src="img/eitaa.svg" width="15" height="15"></i>
-                            </a>
+                            </a> -->
                             <a class="text-body px-2" href="">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
@@ -91,10 +91,12 @@
                             <a href="contact.html" class="nav-item nav-link ">تماس با ما</a>
                         </div>
                     </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span><a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 fontchange d-lg-none">09129421027</a>
+                    </button>
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="m-0 text-uppercase text-primary fontchange display-5 px-2">همپا</h1>
+                        <h1 class="m-0 text-uppercase text-primary display-5 px-2 fontchange">همپا<img class="" src="img/arm2.jpg" width="60" height="60" alt=""></h1>
                     </a>
-                    <img class="" src="img/arm2.jpg" width="60" height="60" alt="">
                 </nav>
             </div>
         </div>
@@ -104,23 +106,11 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-        <div class="container py-5 mx-2">
-            <div class="row justify-content-start">
-                <div class="col-lg-7 text-end">
-                    <h1 class="fontchange display-4 text-white mb-md-4">
-                        <p class="">خاطری آرام و تنی آسوده</p>
-                        <p class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;با</p>
-                        <p class="">&nbsp;&nbsp;&nbsp;محصولات همپا</span></p>
-                    </h1>
-                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;"></h5>
-                        <!-- <span class="border-bottom border-5">همپا</span> -->
-                    <div class="pt-2">
-                        <!-- <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">بیشتر بدانید</a> -->
-                        <!-- <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a> -->
-                    </div>
-                </div>
-            </div>
+    <div class="bg-primary mb-5 hero-image">
+        <div class="hero-text">
+            <h1 class="hero-font text-center">
+                <p class="py-3">خاطری آرام و تنی آسوده؛ با محصولات همپا</p>
+            </h1>
         </div>
     </div>
     <!-- Hero End -->
