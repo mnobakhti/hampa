@@ -71,8 +71,8 @@
 
     // Product carousel
     $(".product-carousel, .related-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1000,
+        autoplay: true,
+        smartSpeed: 1500,
         margin: 45,
         dots: false,
         loop: true,
