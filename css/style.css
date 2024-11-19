@@ -8,26 +8,61 @@
 }
 
 @font-face {
-    font-family: irsans;
-    src:url(irsans.eot) format(eot),    
-          url(irsans.woff) format(woff),
-          url(irsans.ttf) format(truetype);
-         
+    font-family: Yekan;
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format('Yekan-opentype'),
+         url('../fonts/Yekan.woff') format('woff'),
+         url('../fonts/Yekan.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: secondfont ;
-    src: url(BNazanin.eot) format(eot),    
-       url(BNazanin.woff) format(woff),
-       url(BNazanin.ttf) format(truetype); 
-}      
+    font-family: Sahel;
+    src: url('../fonts/Sahel.eot');
+    src: url('../fonts/Sahel.eot?#iefix') format('Sahel-opentype'),
+         url('../fonts/Sahel.woff') format('woff'),
+         url('../fonts/Sahel.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: Tanha;
+    src: url('../fonts/Tanha.eot');
+    src: url('../fonts/Tanha.eot?#iefix') format('Tanha-opentype'),
+         url('../fonts/Tanha.woff') format('woff'),
+         url('../fonts/Tanha.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: BTitr;
+    src: url('../fonts/BTitr.eot');
+    src: url('../fonts/BTitr.eot?#iefix') format('BTitr-opentype'),
+         url('../fonts/BTitr.woff') format('woff'),
+         url('../fonts/BTitr.ttf') format('truetype');
+}
 
 body {
-  font-family: irsans ;
+  font-family: Sahel;
 }
 
 .fontchange {
-    font-family: secondfont !important
+    font-family: Tanha !important
+}
+
+.fontnumber {
+    font-family: BTitr;
+}
+
+.btn-number2 {
+    border-radius: 15px 15px 0 0;
+    padding:5px 80px;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 20px #13C5DD; 
+}
+
+.btn-number1 {
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 0 0 20px #13C5DD;  
 }
 
 .hero-image {
@@ -49,10 +84,10 @@ body {
 }
 
 .hero-font {
-    font-family: secondfont !important;
-    color: #261910 !important;
-    font-size: 30px !important;
-    font-weight: 100%;
+    font-family: Tanha !important;
+    color: #1D2A4D !important;
+    font-size: 26px !important;
+    font-weight:bold;
 }
 
 .video-mask{
@@ -113,7 +148,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Jost', irsans;
+    font-family: Tanha;
     position: relative;
     margin-left: 30px;
     padding: 30px 0;
