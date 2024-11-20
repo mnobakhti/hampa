@@ -57,6 +57,7 @@ body {
     font-size: 15px;
     font-weight: bold;
     text-shadow: 0 0 20px #13C5DD; 
+    white-space: nowrap;
 }
 
 .btn-number1 {
