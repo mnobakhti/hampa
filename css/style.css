@@ -44,6 +44,12 @@ body {
   color: #1D2A4D;
 }
 
+@media (max-width:991px) {
+    body {
+        padding: 15px;
+    }
+}
+
 .fontchange {
     font-family: Tanha !important
 }
@@ -340,3 +346,49 @@ body {
     width: 150px;
     height: 150px;
 }
+
+/* Carousel with Thumbnails */
+.carousel-indicators {
+    bottom: -30px; /* Adjust position of indicators */
+}
+.carousel-indicators li {
+    background-color: #354F8E; /* Set background color for dots */
+    border-radius: 50%; /* Make them circular */
+    width: 12px; /* Set width */
+    height: 12px; /* Set height */
+    margin: 0 5px; /* Space between dots */
+}
+.carousel-indicators .active {
+    background-color: #13C5DD; /* Color for active dot */
+}
+.carousel-image {
+    width: 100%; /* Set width to 100% */
+    height: 500px; /* Increased height for better visibility */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+}
+.thumbnail-image {
+    cursor: pointer;
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+.thumbnail-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.text-section {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+@media (min-width: 992px) { 
+    .text-section {
+        max-height: 500px; 
+    }
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
