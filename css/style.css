@@ -63,11 +63,11 @@ body {
 .btn-number1 {
     font-size: large;
     font-weight: bold;
-    text-shadow: 0 0 20px #13C5DD;  
+    text-shadow: 0 0 20px #354F8E;  
 }
 
 .hero-image {
-    background-image : url("../img/hero.jpg");
+    background-image : url("https://hampaaco.ir/img/stair-lift.jpg");
     height:450px;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,11 +77,11 @@ body {
 
 .hero-text {
     background-color: rgba(256, 256, 256, .3);
+    position: absolute;
     text-align: center;
-    position: absolute; /* Position the background text */
-    bottom: 10px; /* At the bottom. Use top:0 to append it to the top */
+    font-weight:bold;
+    bottom: 15px; /* At the bottom. Use top:0 to append it to the top */
     width: 100%; /* Full width */
-    padding: 0;
 }
 
 .hero-font {
