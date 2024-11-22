@@ -46,7 +46,7 @@ body {
 
 @media (max-width:991px) {
     body {
-        padding: 5px;
+        padding-right: 10px;
     }
 }
 
@@ -399,9 +399,9 @@ body {
     text-align: right;
 }
 
-@media (max-width: 768px) { /* یا هر عرضی که برای حالت موبایل مد نظر دارید */
+@media (max-width: 768px) {
     #productCarousel .carousel-inner .carousel-item img {
-        object-fit: cover; /* پوشش کامل تصویر */
-        height: 300px; /* ارتفاع مناسب برای تصویر */
+        object-fit: cover;
+        height: 300px;
     }
 }
