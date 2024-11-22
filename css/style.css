@@ -399,3 +399,9 @@ body {
     text-align: right;
 }
 
+@media (max-width: 768px) { /* یا هر عرضی که برای حالت موبایل مد نظر دارید */
+    #productCarousel .carousel-inner .carousel-item img {
+        object-fit: cover; /* پوشش کامل تصویر */
+        height: 300px; /* ارتفاع مناسب برای تصویر */
+    }
+}
