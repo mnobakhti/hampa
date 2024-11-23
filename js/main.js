@@ -102,6 +102,10 @@
         loop: true,
         rtl: true,
     });
+
+
+    var pageUrl = encodeURIComponent(window.location.href);
+    var currentUrl = window.location.href; 
     
 })(jQuery);
 
