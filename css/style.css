@@ -44,6 +44,8 @@ body {
   color: #1D2A4D;
 }
 
+
+
 @media (max-width:991px) {
     body {
         padding-right: 15px;
@@ -56,6 +58,10 @@ body {
 
 .fontnumber {
     font-family: BTitr;
+}
+
+.large-font {
+    font-size: larger;
 }
 
 .btn-number2 {
@@ -399,9 +405,20 @@ body {
     text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     #productCarousel .carousel-inner .carousel-item img {
-        object-fit: cover;
-        height: 300px;
+        object-fit: cover; 
+        height: 300px; 
+    }
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column; 
+}
+
+@media (min-width: 768px) {
+    .header-content {
+        flex-direction: row;
     }
 }
